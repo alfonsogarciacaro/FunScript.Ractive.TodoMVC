@@ -15,5 +15,6 @@ I will post a more detailed walkthrough soon but here are some quick notes:
   - todosProcess is in charge of adding, removing or updating items from the todo list. It uses an Async workflow to implement a very simple state machine: WAITING -> EDITING
   - toggleProcess is responsible of updating the "completed" flag in the todos. It uses a couple of Ractive event stream which can also be merged.
   - filterProcess implements some pseudo-routing by modifying the filter of the Todo list. This is also an event stream, but in this case the source is directly HTML (window.onhashchange) not a Ractive proxy event.
+* Compile.fsx: using a script for the Javascript translation is faster than recompiling the project and makes it unnecessary to restart the server. In bigger projects, you can also send to F# interactive only the parts that have actually changed.
 
 Please let me know if you see something weird, I will post more details later. I hope you find it useful!
