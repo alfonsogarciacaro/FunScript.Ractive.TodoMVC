@@ -80,29 +80,27 @@ let todosProcess ractive todos =
 // TODO COMPLETED TOGGLE PROCESS ----------------------------------------------------------------
 let toggleProcess ractive (todos: List<Todo>) =
     RactiveEventStream(ractive, "toggle")
-    |> Observable.subscribe (fun ev ->  let index = int ev.index.["i"]
-                                        let isDone = (ev.node :?> HTMLInputElement)._checked
-                                        todos.[index] <- {todos.[index] with completed = isDone}
-                                        Storage.save(STORAGE_KEY, todos))
-    |> ignore
+    |> Observable.add (fun ev -> let index = int ev.index.["i"]
+                                 let isDone = (ev.node :?> HTMLInputElement)._checked
+                                 todos.[index] <- {todos.[index] with completed = isDone}
+                                 Storage.save(STORAGE_KEY, todos))
 
     RactiveEventStream(ractive, "toggleAll")
-    |> Observable.subscribe (fun ev ->  let isDone = (ev.node :?> HTMLInputElement)._checked
-                                        for i = 0 to (todos.Count-1) do
-                                            if todos.[i].completed <> isDone then
-                                                todos.[i] <- {todos.[i] with completed = isDone}
-                                        Storage.save(STORAGE_KEY, todos))
-    |> ignore
+    |> Observable.add (fun ev -> let isDone = (ev.node :?> HTMLInputElement)._checked
+                                 for i = 0 to (todos.Count-1) do
+                                    if todos.[i].completed <> isDone then
+                                        todos.[i] <- {todos.[i] with completed = isDone}
+                                 Storage.save(STORAGE_KEY, todos))
 
 
 //    Observable.merge (RactiveEventStream (ractive, "toggle")) (RactiveEventStream (ractive, "toggleAll"))
-//    |> Observable.subscribe (fun ev ->  let isDone = (ev.node :?> HTMLInputElement)._checked
-//                                        let first, last =
-//                                            let index = if (def ev.index) then (int ev.index.["i"]) else -1
-//                                            if index > -1 then index, index else 0, (todos.Count-1)
-//                                        for i = first to last do
-//                                            todos.[i] <- {todos.[i] with completed = isDone}
-//                                        Storage.save(STORAGE_KEY, todos))
+//    |> Observable.add (fun ev -> let isDone = (ev.node :?> HTMLInputElement)._checked
+//                                 let first, last =
+//                                    let index = if (def ev.index) then (int ev.index.["i"]) else -1
+//                                    if index > -1 then index, index else 0, (todos.Count-1)
+//                                 for i = first to last do
+//                                    todos.[i] <- {todos.[i] with completed = isDone}
+//                                 Storage.save(STORAGE_KEY, todos))
 
 
 
@@ -122,4 +120,3 @@ let main() =
     todosProcess ractive data.items
     toggleProcess ractive data.items
     filterProcess ractive
-    Globals.alert("Hello World!")

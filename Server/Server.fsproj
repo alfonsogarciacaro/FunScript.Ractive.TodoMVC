@@ -120,7 +120,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Content Include="packages.config" />
-    <Content Include="readme.txt" />
     <Content Include="index.html" />
   </ItemGroup>
   <ItemGroup>
