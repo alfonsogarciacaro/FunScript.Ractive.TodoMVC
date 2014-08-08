@@ -1,27 +1,39 @@
-var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveData_, TupleRactive__List_1_Todo_, TupleInt32_Int32, TupleFSharpFunc_2_FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent__Unit__FSharpFunc_2_Exception__Unit__FSharpFunc_2_String__Unit_, TupleFSharpFunc_2_FSharpChoice_2_RactiveEvent__RactiveEvent__Unit__FSharpFunc_2_Exception__Unit__FSharpFunc_2_String__Unit_, Todo___ctor$, Storage__save$List_1_Todo_List_1_Todo_, Storage__load$List_1_Todo_List_1_Todo_, Seq__Unfold$Int32__Int32_Int32_Int32, Seq__ToArray$Int32_Int32, Seq__OfArray$Int32_Int32, Seq__IterateIndexed$Int32_Int32, Seq__FromFactory$Int32_Int32, Seq__FoldIndexedAux$Unit__Int32_Unit__Int32, Seq__FoldIndexed$Int32__Unit_Int32_Unit_, Seq__Enumerator$Int32_Int32, Range__oneStep$Int32_Int32, Range__customStep$Int32__Int32_Int32_Int32, RactiveExtra__RactiveStatic_CreateWith$RactiveData_RactiveData_, RactiveExtra__RactiveEventPlugins_makeCustomKeyEvent_Static$HTMLElement_HTMLElement_, RactiveExtra__Async_AwaitRactiveEvent4_Static$, RactiveExtra__Async_AwaitRactiveEvent2_Static$, RactiveEventStream___ctor$, RactiveData___ctor$, Program__toggleProcess$, Program__todosProcess$, Program__main$, Program__init$, Program__get_STORAGE_KEY$, Program__filterProcess$, Program__STORAGE_KEY, Option__IsSome$Int32_Int32, Option__GetValue$Tuple_2_Int32__Int32_Tuple_2_Int32__Int32_, Option__GetValue$RactiveObserve_RactiveObserve_, Option__GetValue$List_1_Todo_List_1_Todo_, Option__GetValue$Int32_Int32, Option__GetValue$FSharpRef_1_Boolean_FSharpRef_1_Boolean_, Option__GetValue$CancellationToken_CancellationToken_, Option__GetValue$Boolean_Boolean, Observable__subscribe$RactiveEvent_RactiveEvent_, Observable__subscribe$Event_Event_, LanguagePrimitives__UnboxGeneric$String_String, LanguagePrimitives__UnboxGeneric$KeyboardEvent_KeyboardEvent_, LanguagePrimitives__UnboxGeneric$HTMLInputElement_HTMLInputElement_, HTMLEventStream_1_Event___ctor$Event_, GenericConstants__One$Int32_Int32, Filters___ctor$, FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent__Choice4Of4RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent_, FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent__Choice3Of4RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent_, FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent__Choice2Of4RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent_, FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent__Choice1Of4RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent_, FSharpChoice_2_RactiveEvent__RactiveEvent__Choice2Of2RactiveEvent__RactiveEvent_, FSharpChoice_2_RactiveEvent__RactiveEvent__Choice1Of2RactiveEvent__RactiveEvent_, CreateEnumerable_1_Int32___ctor$Int32, CancellationToken___ctor$, CancellationToken__ThrowIfCancellationRequested$, Async__StartImmediate$, Async__FromContinuations$FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent_FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent_, Async__FromContinuations$FSharpChoice_2_RactiveEvent__RactiveEvent_FSharpChoice_2_RactiveEvent__RactiveEvent_, Async_1_protectedCont$Unit_Unit_, Async_1_protectedCont$FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent_FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent_, Async_1_protectedCont$FSharpChoice_2_RactiveEvent__RactiveEvent_FSharpChoice_2_RactiveEvent__RactiveEvent_, Async_1_invokeCont$Unit_Unit_, Async_1_get_async$, Async_1_Unit__ContUnit_, Async_1_FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent__ContFSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent_, Async_1_FSharpChoice_2_RactiveEvent__RactiveEvent__ContFSharpChoice_2_RactiveEvent__RactiveEvent_, AsyncParams_1_Unit___ctor$Unit_, AsyncParams_1_FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent___ctor$FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent_, AsyncParams_1_FSharpChoice_2_RactiveEvent__RactiveEvent___ctor$FSharpChoice_2_RactiveEvent__RactiveEvent_, AsyncParamsAux___ctor$, AsyncBuilder___ctor$, AsyncBuilder__Zero$, AsyncBuilder__While$, AsyncBuilder__ReturnFrom$Unit_Unit_, AsyncBuilder__Return$Unit_Unit_, AsyncBuilder__For$Int32_Int32, AsyncBuilder__Delay$Unit_Unit_, AsyncBuilder__Combine$Unit_Unit_, AsyncBuilder__Bind$Unit__Unit_Unit__Unit_, AsyncBuilder__Bind$FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent__Unit_FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent__Unit_, AsyncBuilder__Bind$FSharpChoice_2_RactiveEvent__RactiveEvent__Unit_FSharpChoice_2_RactiveEvent__RactiveEvent__Unit_, Array__ZeroCreate$Int32_Int32, Array__BoxedLength$, ActionObserver_1_RactiveEvent___ctor$RactiveEvent_, ActionObserver_1_Event___ctor$Event_, ActionDisposable___ctor$;
+var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveData_1, TupleRactive__List_1_Todo_1, TupleInt32_Int32, TupleFSharpFunc_2_FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent__Unit__FSharpFunc_2_Exception__Unit__FSharpFunc_2_String__Unit_, TupleFSharpFunc_2_FSharpChoice_2_RactiveEvent__RactiveEvent__Unit__FSharpFunc_2_Exception__Unit__FSharpFunc_2_String__Unit_, Todo_1__ctor$, Storage_1_save$List_1_Todo_1List_1_Todo_1, Storage_1_load$List_1_Todo_1List_1_Todo_1, Seq__Unfold$Int32__Int32_Int32_Int32, Seq__FromFactory$Int32_Int32, Range__customStep$Int32__Int32_Int32_Int32, RactiveExtra_1_RactiveStatic_CreateWith$RactiveData_1RactiveData_1, RactiveExtra_1_RactiveEventPlugins_makeCustomKeyEvent_Static$HTMLElement_HTMLElement_, RactiveExtra_1_Async_AwaitRactiveEvent4_Static$, RactiveExtra_1_Async_AwaitRactiveEvent2_Static$, RactiveEventStream_1__ctor$, RactiveData_1__ctor$, Program_1_toggleProcess$, Program_1_todosProcess$, Program_1_main$, Program_1_init$, Program_1_get_STORAGE_KEY$, Program_1_filterProcess$, Program_1_STORAGE_KEY, Option__IsSome$Int32_Int32, Option__GetValue$Tuple_2_Int32__Int32_Tuple_2_Int32__Int32_, Option__GetValue$RactiveObserve_RactiveObserve_, Option__GetValue$List_1_Todo_1List_1_Todo_1, Option__GetValue$Int32_Int32, Option__GetValue$FSharpRef_1_Boolean_FSharpRef_1_Boolean_, Option__GetValue$CancellationToken_CancellationToken_, Option__GetValue$Boolean_Boolean, Observable_1_subscribe$RactiveEvent_RactiveEvent_, Observable_1_subscribe$Event_Event_, LanguagePrimitives__UnboxGeneric$String_String, LanguagePrimitives__UnboxGeneric$KeyboardEvent_KeyboardEvent_, LanguagePrimitives__UnboxGeneric$HTMLInputElement_HTMLInputElement_, HTMLEventStream_1_Event_1__ctor$Event_, GenericConstants__Zero$Int32_Int32, Filters_1__ctor$, FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent__Choice4Of4RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent_, FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent__Choice3Of4RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent_, FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent__Choice2Of4RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent_, FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent__Choice1Of4RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent_, FSharpChoice_2_RactiveEvent__RactiveEvent__Choice2Of2RactiveEvent__RactiveEvent_, FSharpChoice_2_RactiveEvent__RactiveEvent__Choice1Of2RactiveEvent__RactiveEvent_, CreateEnumerable_1_Int32___ctor$Int32, CancellationToken___ctor$, CancellationToken__ThrowIfCancellationRequested$, Async__StartImmediate$, Async__FromContinuations$FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent_FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent_, Async__FromContinuations$FSharpChoice_2_RactiveEvent__RactiveEvent_FSharpChoice_2_RactiveEvent__RactiveEvent_, Async_1_protectedCont$Unit_Unit_, Async_1_protectedCont$FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent_FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent_, Async_1_protectedCont$FSharpChoice_2_RactiveEvent__RactiveEvent_FSharpChoice_2_RactiveEvent__RactiveEvent_, Async_1_invokeCont$Unit_Unit_, Async_1_get_async$, Async_1_Unit__ContUnit_, Async_1_FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent__ContFSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent_, Async_1_FSharpChoice_2_RactiveEvent__RactiveEvent__ContFSharpChoice_2_RactiveEvent__RactiveEvent_, AsyncParams_1_Unit___ctor$Unit_, AsyncParams_1_FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent___ctor$FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent_, AsyncParams_1_FSharpChoice_2_RactiveEvent__RactiveEvent___ctor$FSharpChoice_2_RactiveEvent__RactiveEvent_, AsyncParamsAux___ctor$, AsyncBuilder___ctor$, AsyncBuilder__Zero$, AsyncBuilder__While$, AsyncBuilder__ReturnFrom$Unit_Unit_, AsyncBuilder__Return$Unit_Unit_, AsyncBuilder__For$Int32_Int32, AsyncBuilder__Delay$Unit_Unit_, AsyncBuilder__Combine$Unit_Unit_, AsyncBuilder__Bind$Unit__Unit_Unit__Unit_, AsyncBuilder__Bind$FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent__Unit_FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent__Unit_, AsyncBuilder__Bind$FSharpChoice_2_RactiveEvent__RactiveEvent__Unit_FSharpChoice_2_RactiveEvent__RactiveEvent__Unit_, ActionObserver_1_RactiveEvent___ctor$RactiveEvent_, ActionObserver_1_RactiveEvent___ctor$1RactiveEvent_, ActionObserver_1_Event___ctor$Event_, ActionObserver_1_Event___ctor$1Event_, ActionDisposable___ctor$;
   ActionDisposable___ctor$ = (function (f)
   {
     this.f = f;
   });
-  ActionObserver_1_Event___ctor$Event_ = (function (onNext, onError, onCompleted)
+  ActionObserver_1_Event___ctor$1Event_ = (function (onNext, onError, onCompleted)
   {
     this.onNext = onNext;
     this.onError = onError;
     this.onCompleted = onCompleted;
   });
-  ActionObserver_1_RactiveEvent___ctor$RactiveEvent_ = (function (onNext, onError, onCompleted)
+  ActionObserver_1_Event___ctor$Event_ = (function (onNext)
+  {
+    return (new ActionObserver_1_Event___ctor$1Event_(onNext, (function (e)
+    {
+      ;
+    }), (function (unitVar0)
+    {
+      ;
+    })));
+  });
+  ActionObserver_1_RactiveEvent___ctor$1RactiveEvent_ = (function (onNext, onError, onCompleted)
   {
     this.onNext = onNext;
     this.onError = onError;
     this.onCompleted = onCompleted;
   });
-  Array__BoxedLength$ = (function (xs)
+  ActionObserver_1_RactiveEvent___ctor$RactiveEvent_ = (function (onNext)
   {
-    return xs.length;;
-  });
-  Array__ZeroCreate$Int32_Int32 = (function (size)
-  {
-    return new Array(size);;
+    return (new ActionObserver_1_RactiveEvent___ctor$1RactiveEvent_(onNext, (function (e)
+    {
+      ;
+    }), (function (unitVar0)
+    {
+      ;
+    })));
   });
   AsyncBuilder__Bind$FSharpChoice_2_RactiveEvent__RactiveEvent__Unit_FSharpChoice_2_RactiveEvent__RactiveEvent__Unit_ = (function (x, _arg1, f)
   {
@@ -88,10 +100,10 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
       return Async_1_protectedCont$Unit_Unit_(_f);
     })((function (k)
     {
-      var _966;
-      var _968;
-      _966 = f(_968);
-      var patternInput = _966;
+      var _886;
+      var _888;
+      _886 = f(_888);
+      var patternInput = _886;
       var r = patternInput.Item;
       return r(k);
     }));
@@ -123,10 +135,10 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
   });
   AsyncBuilder__While$ = (function (x, cond, body)
   {
-    var _974;
-    var _976;
-    _974 = cond(_976);
-    if (_974) 
+    var _894;
+    var _896;
+    _894 = cond(_896);
+    if (_894) 
     {
       return AsyncBuilder__Bind$Unit__Unit_Unit__Unit_(x, body, (function (unitVar0)
       {
@@ -135,8 +147,8 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
     }
     else
     {
-      var _1005;
-      return AsyncBuilder__Return$Unit_Unit_(x, _1005);
+      var _925;
+      return AsyncBuilder__Return$Unit_Unit_(x, _925);
     };
   });
   AsyncBuilder__Zero$ = (function (x, unitVar1)
@@ -778,13 +790,13 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
       };
     };
   });
-  Filters___ctor$ = (function (all, completed, active)
+  Filters_1__ctor$ = (function (all, completed, active)
   {
     this.all = all;
     this.completed = completed;
     this.active = active;
   });
-  Filters___ctor$.prototype.CompareTo = (function (that)
+  Filters_1__ctor$.prototype.CompareTo = (function (that)
   {
     var diff = 0.000000;
     var _diff = 0.000000;
@@ -819,11 +831,11 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
       };
     };
   });
-  GenericConstants__One$Int32_Int32 = (function ()
+  GenericConstants__Zero$Int32_Int32 = (function ()
   {
-    return 1;;
+    return 0;;
   });
-  HTMLEventStream_1_Event___ctor$Event_ = (function (attach)
+  HTMLEventStream_1_Event_1__ctor$Event_ = (function (attach)
   {
     this.attach = attach;
   });
@@ -839,18 +851,12 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
   {
     return x;;
   });
-  Observable__subscribe$Event_Event_ = (function (f, w)
+  Observable_1_subscribe$Event_Event_ = (function (f, w)
   {
-    var _1634;
+    var _1555;
     var impl;
-    impl = (new ActionObserver_1_Event___ctor$Event_(f, (function (e)
-    {
-      ;
-    }), (function (unitVar0)
-    {
-      ;
-    })));
-    _1634 = {OnNext: (function (v)
+    impl = (new ActionObserver_1_Event___ctor$Event_(f));
+    _1555 = {OnNext: (function (v)
     {
       return (function (_this, v)
       {
@@ -866,24 +872,18 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
     {
       return (function (_this, unitVar1)
       {
-        var _1643;
-        return _this.onCompleted(_1643);
+        var _1564;
+        return _this.onCompleted(_1564);
       })(impl, unitVar1);
     })};
-    return w.Subscribe(_1634);
+    return w.Subscribe(_1555);
   });
-  Observable__subscribe$RactiveEvent_RactiveEvent_ = (function (f, w)
+  Observable_1_subscribe$RactiveEvent_RactiveEvent_ = (function (f, w)
   {
-    var _1484;
+    var _1404;
     var impl;
-    impl = (new ActionObserver_1_RactiveEvent___ctor$RactiveEvent_(f, (function (e)
-    {
-      ;
-    }), (function (unitVar0)
-    {
-      ;
-    })));
-    _1484 = {OnNext: (function (v)
+    impl = (new ActionObserver_1_RactiveEvent___ctor$RactiveEvent_(f));
+    _1404 = {OnNext: (function (v)
     {
       return (function (_this, v)
       {
@@ -899,11 +899,11 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
     {
       return (function (_this, unitVar1)
       {
-        var _1493;
-        return _this.onCompleted(_1493);
+        var _1413;
+        return _this.onCompleted(_1413);
       })(impl, unitVar1);
     })};
-    return w.Subscribe(_1484);
+    return w.Subscribe(_1404);
   });
   Option__GetValue$Boolean_Boolean = (function (option)
   {
@@ -921,7 +921,7 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
   {
     return option.Value;;
   });
-  Option__GetValue$List_1_Todo_List_1_Todo_ = (function (option)
+  Option__GetValue$List_1_Todo_1List_1_Todo_1 = (function (option)
   {
     return option.Value;;
   });
@@ -937,10 +937,10 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
   {
     return ((option.Tag == 1.000000) && true);
   });
-  Program__filterProcess$ = (function (ractive)
+  Program_1_filterProcess$ = (function (ractive)
   {
-    var _1580;
-    var _1581;
+    var _1501;
+    var _1502;
     var f = (function (ev)
     {
       var matchValue = (((window.window).location).hash).substring(2);
@@ -971,12 +971,12 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
         };
       };
     });
-    _1581 = (function (w)
+    _1502 = (function (w)
     {
-      var _1619;
+      var _1540;
       var impl;
       impl = w;
-      _1619 = {Subscribe: (function (observer)
+      _1540 = {Subscribe: (function (observer)
       {
         return (function (x, observer)
         {
@@ -993,15 +993,15 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
           {
             return (function (_this, unitVar1)
             {
-              var _1628;
-              return _this.f(_1628);
+              var _1549;
+              return _this.f(_1549);
             })(_impl, unitVar1);
           })};
         })(impl, observer);
       })};
-      return Observable__subscribe$Event_Event_(f, _1619);
+      return Observable_1_subscribe$Event_Event_(f, _1540);
     });
-    _1580 = _1581((new HTMLEventStream_1_Event___ctor$Event_((function (cb)
+    _1501 = _1502((new HTMLEventStream_1_Event_1__ctor$Event_((function (cb)
     {
       ((window.window).onhashchange) = cb;
       return null;
@@ -1009,31 +1009,31 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
     return (function (value)
     {
       var ignored0 = value;
-    })(_1580);
+    })(_1501);
   });
-  Program__get_STORAGE_KEY$ = (function ()
+  Program_1_get_STORAGE_KEY$ = (function ()
   {
     return "todos-ractive";
   });
-  Program__init$ = (function (unitVar0)
+  Program_1_init$ = (function (unitVar0)
   {
-    (((window.Ractive).events)["enter"]) = RactiveExtra__RactiveEventPlugins_makeCustomKeyEvent_Static$HTMLElement_HTMLElement_(13);
+    (((window.Ractive).events)["enter"]) = RactiveExtra_1_RactiveEventPlugins_makeCustomKeyEvent_Static$HTMLElement_HTMLElement_(13);
     null;
-    (((window.Ractive).events)["escape"]) = RactiveExtra__RactiveEventPlugins_makeCustomKeyEvent_Static$HTMLElement_HTMLElement_(27);
+    (((window.Ractive).events)["escape"]) = RactiveExtra_1_RactiveEventPlugins_makeCustomKeyEvent_Static$HTMLElement_HTMLElement_(27);
     null;
     var _68;
     var _69;
-    var v = Storage__load$List_1_Todo_List_1_Todo_(Program__STORAGE_KEY);
+    var v = Storage_1_load$List_1_Todo_1List_1_Todo_1(Program_1_STORAGE_KEY);
     if ((v.Tag == 0.000000)) 
     {
       _69 = (new Array());
     }
     else
     {
-      var v_ = Option__GetValue$List_1_Todo_List_1_Todo_(v);
+      var v_ = Option__GetValue$List_1_Todo_1List_1_Todo_1(v);
       _69 = v_;
     };
-    _68 = (new RactiveData___ctor$(_69, "all", (new Filters___ctor$((function (t)
+    _68 = (new RactiveData_1__ctor$(_69, "all", (new Filters_1__ctor$((function (t)
     {
       return true;
     }), (function (t)
@@ -1044,19 +1044,20 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
       return (!t.completed);
     })))));
     var data = _68;
-    var ractive = RactiveExtra__RactiveStatic_CreateWith$RactiveData_RactiveData_((window.Ractive), "#todoapp", "#main", data, {Tag: 1.000000, Value: false});
-    return (new TupleRactive__RactiveData_(ractive, data));
+    var ractive = RactiveExtra_1_RactiveStatic_CreateWith$RactiveData_1RactiveData_1((window.Ractive), "#todoapp", "#main", data, {Tag: 1.000000, Value: false});
+    return (new TupleRactive__RactiveData_1(ractive, data));
   });
-  Program__main$ = (function (unitVar0)
+  Program_1_main$ = (function (unitVar0)
   {
-    var patternInput = Program__init$();
+    var patternInput = Program_1_init$();
     var ractive = patternInput.Items[0.000000];
     var data = patternInput.Items[1.000000];
-    Program__todosProcess$(ractive, data.items);
-    Program__toggleProcess$(ractive, data.items);
-    return Program__filterProcess$(ractive);
+    Program_1_todosProcess$(ractive, data.items);
+    Program_1_toggleProcess$(ractive, data.items);
+    Program_1_filterProcess$(ractive);
+    return (window.alert("Hello World!"));
   });
-  Program__todosProcess$ = (function (ractive, todos)
+  Program_1_todosProcess$ = (function (ractive, todos)
   {
     var editingLoop;
     editingLoop = (function (tupledArg)
@@ -1067,7 +1068,7 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
       {
         return AsyncBuilder__Delay$Unit_Unit_(builder_, (function (unitVar)
         {
-          return AsyncBuilder__Bind$FSharpChoice_2_RactiveEvent__RactiveEvent__Unit_FSharpChoice_2_RactiveEvent__RactiveEvent__Unit_(builder_, RactiveExtra__Async_AwaitRactiveEvent2_Static$(_ractive, "submit", "cancel"), (function (_arg1)
+          return AsyncBuilder__Bind$FSharpChoice_2_RactiveEvent__RactiveEvent__Unit_FSharpChoice_2_RactiveEvent__RactiveEvent__Unit_(builder_, RactiveExtra_1_Async_AwaitRactiveEvent2_Static$(_ractive, "submit", "cancel"), (function (_arg1)
           {
             var choice = _arg1;
             if ((choice.Tag == 1.000000)) 
@@ -1080,7 +1081,7 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
               var index = ((ev.index)["i"]);
               var oldTodo = (ev.context);
               var input = LanguagePrimitives__UnboxGeneric$HTMLInputElement_HTMLInputElement_((ev.node));
-              _todos.splice(index, 1, (new Todo___ctor$((input.value), oldTodo.completed)));
+              _todos.splice(index, 1, (new Todo_1__ctor$((input.value), oldTodo.completed)));
               return AsyncBuilder__Zero$(builder_);
             };
           }));
@@ -1096,7 +1097,7 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
       {
         return AsyncBuilder__Delay$Unit_Unit_(builder_, (function (unitVar)
         {
-          return AsyncBuilder__Bind$FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent__Unit_FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent__Unit_(builder_, RactiveExtra__Async_AwaitRactiveEvent4_Static$(_ractive, "newTodo", "remove", "clearCompleted", "edit"), (function (_arg2)
+          return AsyncBuilder__Bind$FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent__Unit_FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent__Unit_(builder_, RactiveExtra_1_Async_AwaitRactiveEvent4_Static$(_ractive, "newTodo", "remove", "clearCompleted", "edit"), (function (_arg2)
           {
             var choice = _arg2;
             var _608;
@@ -1113,7 +1114,7 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
               if ((choice.Tag == 2.000000)) 
               {
                 var _ev = choice.Item;
-                _609 = AsyncBuilder__For$Int32_Int32(builder_, Seq__OfArray$Int32_Int32((Seq__ToArray$Int32_Int32(Range__oneStep$Int32_Int32(0, (_todos.length - 1))).reverse())), (function (_arg3)
+                _609 = AsyncBuilder__For$Int32_Int32(builder_, Range__customStep$Int32__Int32_Int32_Int32((_todos.length - 1), -1, 0), (function (_arg3)
                 {
                   var i = _arg3;
                   if (_todos[i].completed) 
@@ -1138,7 +1139,7 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
                   (input.value) = (__ev.context).description;
                   null;
                   (input.focus());
-                  _609 = AsyncBuilder__Bind$Unit__Unit_Unit__Unit_(builder_, editingLoop((new TupleRactive__List_1_Todo_(_ractive, _todos))), (function (_arg4)
+                  _609 = AsyncBuilder__Bind$Unit__Unit_Unit__Unit_(builder_, editingLoop((new TupleRactive__List_1_Todo_1(_ractive, _todos))), (function (_arg4)
                   {
                     ((li.classList).remove("editing"));
                     return AsyncBuilder__Zero$(builder_);
@@ -1148,7 +1149,7 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
                 {
                   var ___ev = choice.Item;
                   var _input = LanguagePrimitives__UnboxGeneric$HTMLInputElement_HTMLInputElement_((___ev.node));
-                  _todos.push((new Todo___ctor$((_input.value), false)));
+                  _todos.push((new Todo_1__ctor$((_input.value), false)));
                   (_input.value) = "";
                   null;
                   _609 = AsyncBuilder__Zero$(builder_);
@@ -1158,8 +1159,8 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
             _608 = _609;
             return AsyncBuilder__Combine$Unit_Unit_(builder_, _608, AsyncBuilder__Delay$Unit_Unit_(builder_, (function (_unitVar)
             {
-              Storage__save$List_1_Todo_List_1_Todo_(Program__STORAGE_KEY, _todos);
-              return AsyncBuilder__ReturnFrom$Unit_Unit_(builder_, waitingLoop((new TupleRactive__List_1_Todo_(_ractive, _todos))));
+              Storage_1_save$List_1_Todo_1List_1_Todo_1(Program_1_STORAGE_KEY, _todos);
+              return AsyncBuilder__ReturnFrom$Unit_Unit_(builder_, waitingLoop((new TupleRactive__List_1_Todo_1(_ractive, _todos))));
             })));
           }));
         }));
@@ -1168,30 +1169,30 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
     return (function (arg00)
     {
       return Async__StartImmediate$(arg00, {Tag: 0.000000});
-    })(waitingLoop((new TupleRactive__List_1_Todo_(ractive, todos))));
+    })(waitingLoop((new TupleRactive__List_1_Todo_1(ractive, todos))));
   });
-  Program__toggleProcess$ = (function (ractive, todos)
+  Program_1_toggleProcess$ = (function (ractive, todos)
   {
-    var _1433;
-    var _1434;
+    var _1353;
+    var _1354;
     var f = (function (ev)
     {
       var index = ((ev.index)["i"]);
       var isDone = (LanguagePrimitives__UnboxGeneric$HTMLInputElement_HTMLInputElement_((ev.node)).checked);
-      var _1450;
-      var _1451;
+      var _1370;
+      var _1371;
       var inputRecord = todos[index];
-      _1451 = (new Todo___ctor$(inputRecord.description, isDone));
-      _1450 = _1451;
-      todos.splice(index, 1, _1450);
-      return Storage__save$List_1_Todo_List_1_Todo_(Program__STORAGE_KEY, todos);
+      _1371 = (new Todo_1__ctor$(inputRecord.description, isDone));
+      _1370 = _1371;
+      todos.splice(index, 1, _1370);
+      return Storage_1_save$List_1_Todo_1List_1_Todo_1(Program_1_STORAGE_KEY, todos);
     });
-    _1434 = (function (w)
+    _1354 = (function (w)
     {
-      var _1464;
+      var _1384;
       var impl;
       impl = w;
-      _1464 = {Subscribe: (function (observer)
+      _1384 = {Subscribe: (function (observer)
       {
         return (function (x, observer)
         {
@@ -1212,21 +1213,21 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
           {
             return (function (_this, unitVar1)
             {
-              var _1482;
-              return _this.f(_1482);
+              var _1402;
+              return _this.f(_1402);
             })(_impl, unitVar1);
           })};
         })(impl, observer);
       })};
-      return Observable__subscribe$RactiveEvent_RactiveEvent_(f, _1464);
+      return Observable_1_subscribe$RactiveEvent_RactiveEvent_(f, _1384);
     });
-    _1433 = _1434((new RactiveEventStream___ctor$(ractive, "toggle")));
+    _1353 = _1354((new RactiveEventStream_1__ctor$(ractive, "toggle")));
     (function (value)
     {
       var ignored0 = value;
-    })(_1433);
-    var _1512;
-    var _1513;
+    })(_1353);
+    var _1433;
+    var _1434;
     var _f = (function (ev)
     {
       var isDone = (LanguagePrimitives__UnboxGeneric$HTMLInputElement_HTMLInputElement_((ev.node)).checked);
@@ -1234,26 +1235,26 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
       {
         if ((todos[i].completed != isDone)) 
         {
-          var _1543;
-          var _1544;
+          var _1464;
+          var _1465;
           var inputRecord = todos[i];
-          _1544 = (new Todo___ctor$(inputRecord.description, isDone));
-          _1543 = _1544;
-          todos.splice(i, 1, _1543);
+          _1465 = (new Todo_1__ctor$(inputRecord.description, isDone));
+          _1464 = _1465;
+          todos.splice(i, 1, _1464);
         }
         else
         {
           ;
         };
       };
-      return Storage__save$List_1_Todo_List_1_Todo_(Program__STORAGE_KEY, todos);
+      return Storage_1_save$List_1_Todo_1List_1_Todo_1(Program_1_STORAGE_KEY, todos);
     });
-    _1513 = (function (w)
+    _1434 = (function (w)
     {
-      var _1557;
+      var _1478;
       var impl;
       impl = w;
-      _1557 = {Subscribe: (function (observer)
+      _1478 = {Subscribe: (function (observer)
       {
         return (function (x, observer)
         {
@@ -1274,27 +1275,27 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
           {
             return (function (_this, unitVar1)
             {
-              var _1573;
-              return _this.f(_1573);
+              var _1494;
+              return _this.f(_1494);
             })(_impl, unitVar1);
           })};
         })(impl, observer);
       })};
-      return Observable__subscribe$RactiveEvent_RactiveEvent_(_f, _1557);
+      return Observable_1_subscribe$RactiveEvent_RactiveEvent_(_f, _1478);
     });
-    _1512 = _1513((new RactiveEventStream___ctor$(ractive, "toggleAll")));
+    _1433 = _1434((new RactiveEventStream_1__ctor$(ractive, "toggleAll")));
     return (function (value)
     {
       var ignored0 = value;
-    })(_1512);
+    })(_1433);
   });
-  RactiveData___ctor$ = (function (items, currentFilter, filters)
+  RactiveData_1__ctor$ = (function (items, currentFilter, filters)
   {
     this.items = items;
     this.currentFilter = currentFilter;
     this.filters = filters;
   });
-  RactiveData___ctor$.prototype.CompareTo = (function (that)
+  RactiveData_1__ctor$.prototype.CompareTo = (function (that)
   {
     var diff = 0.000000;
     var _diff = 0.000000;
@@ -1329,12 +1330,12 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
       };
     };
   });
-  RactiveEventStream___ctor$ = (function (ractive, ev)
+  RactiveEventStream_1__ctor$ = (function (ractive, ev)
   {
     this.ractive = ractive;
     this.ev = ev;
   });
-  RactiveExtra__Async_AwaitRactiveEvent2_Static$ = (function (r, ev1, ev2)
+  RactiveExtra_1_Async_AwaitRactiveEvent2_Static$ = (function (r, ev1, ev2)
   {
     return Async__FromContinuations$FSharpChoice_2_RactiveEvent__RactiveEvent_FSharpChoice_2_RactiveEvent__RactiveEvent_((function (tupledArg)
     {
@@ -1364,7 +1365,7 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
       }))));
     }));
   });
-  RactiveExtra__Async_AwaitRactiveEvent4_Static$ = (function (r, ev1, ev2, ev3, ev4)
+  RactiveExtra_1_Async_AwaitRactiveEvent4_Static$ = (function (r, ev1, ev2, ev3, ev4)
   {
     return Async__FromContinuations$FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent_FSharpChoice_4_RactiveEvent__RactiveEvent__RactiveEvent__RactiveEvent_((function (tupledArg)
     {
@@ -1424,7 +1425,7 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
       }))));
     }));
   });
-  RactiveExtra__RactiveEventPlugins_makeCustomKeyEvent_Static$HTMLElement_HTMLElement_ = (function (keyCode)
+  RactiveExtra_1_RactiveEventPlugins_makeCustomKeyEvent_Static$HTMLElement_HTMLElement_ = (function (keyCode)
   {
     var plugin = (function (node)
     {
@@ -1475,7 +1476,7 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
       })(delegateArg)(_delegateArg);
     });
   });
-  RactiveExtra__RactiveStatic_CreateWith$RactiveData_RactiveData_ = (function (x, el, template, data, twoway)
+  RactiveExtra_1_RactiveStatic_CreateWith$RactiveData_1RactiveData_1 = (function (x, el, template, data, twoway)
   {
     var _108;
     if ((twoway.Tag == 1.000000)) 
@@ -1501,10 +1502,11 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
   });
   Range__customStep$Int32__Int32_Int32_Int32 = (function (first, stepping, last)
   {
-    var _771;
+    var zero = GenericConstants__Zero$Int32_Int32();
+    var _766;
     var f = (function (x)
     {
-      if ((x <= last)) 
+      if ((((stepping > zero) && (x <= last)) || ((stepping < zero) && (x >= last)))) 
       {
         return {Tag: 1.000000, Value: (new TupleInt32_Int32(x, (x + stepping)))};
       }
@@ -1513,36 +1515,11 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
         return {Tag: 0.000000};
       };
     });
-    _771 = (function (seed)
+    _766 = (function (seed)
     {
       return Seq__Unfold$Int32__Int32_Int32_Int32(f, seed);
     });
-    return _771(first);
-  });
-  Range__oneStep$Int32_Int32 = (function (first, last)
-  {
-    return Range__customStep$Int32__Int32_Int32_Int32(first, GenericConstants__One$Int32_Int32(), last);
-  });
-  Seq__Enumerator$Int32_Int32 = (function (xs)
-  {
-    return xs.GetEnumerator();
-  });
-  Seq__FoldIndexed$Int32__Unit_Int32_Unit_ = (function (f, seed, xs)
-  {
-    return Seq__FoldIndexedAux$Unit__Int32_Unit__Int32(f, seed, Seq__Enumerator$Int32_Int32(xs));
-  });
-  Seq__FoldIndexedAux$Unit__Int32_Unit__Int32 = (function (f, acc, xs)
-  {
-    var i = {contents: 0};
-    var _acc = {contents: acc};
-    while (xs.MoveNext())
-    {
-      _acc.contents = f(i.contents)(_acc.contents)(xs.get_Current());
-      null;
-      i.contents = (i.contents + 1);
-      null;
-    };
-    return _acc.contents;
+    return _766(first);
   });
   Seq__FromFactory$Int32_Int32 = (function (f)
   {
@@ -1552,63 +1529,10 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
     {
       return (function (__, unitVar1)
       {
-        var _841;
-        return __.factory(_841);
+        var _845;
+        return __.factory(_845);
       })(impl, unitVar1);
     })};
-  });
-  Seq__IterateIndexed$Int32_Int32 = (function (f, xs)
-  {
-    var _860;
-    return Seq__FoldIndexed$Int32__Unit_Int32_Unit_((function (i)
-    {
-      return (function (unitVar1)
-      {
-        return (function (x)
-        {
-          return f(i)(x);
-        });
-      });
-    }), _860, xs);
-  });
-  Seq__OfArray$Int32_Int32 = (function (xs)
-  {
-    var _913;
-    var f = (function (i)
-    {
-      if ((i < Array__BoxedLength$(xs))) 
-      {
-        return {Tag: 1.000000, Value: (new TupleInt32_Int32(xs[i], (i + 1)))};
-      }
-      else
-      {
-        return {Tag: 0.000000};
-      };
-    });
-    _913 = (function (seed)
-    {
-      return Seq__Unfold$Int32__Int32_Int32_Int32(f, seed);
-    });
-    return _913(0);
-  });
-  Seq__ToArray$Int32_Int32 = (function (xs)
-  {
-    var ys = Array__ZeroCreate$Int32_Int32(0);
-    var _848;
-    var f = (function (i)
-    {
-      return (function (x)
-      {
-        ys[i] = x;
-        return null;
-      });
-    });
-    _848 = (function (_xs)
-    {
-      return Seq__IterateIndexed$Int32_Int32(f, _xs);
-    });
-    _848(xs);
-    return ys;
   });
   Seq__Unfold$Int32__Int32_Int32_Int32 = (function (f, seed)
   {
@@ -1653,8 +1577,8 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
           });
           return (Option__IsSome$Int32_Int32(__.acc) && (function ()
           {
-            var _820;
-            return next(_820);
+            var _824;
+            return next(_824);
           })());
         })(impl, unitVar1);
       }), Reset: (function (unitVar1)
@@ -1667,7 +1591,7 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
       })};
     }));
   });
-  Storage__load$List_1_Todo_List_1_Todo_ = (function (key)
+  Storage_1_load$List_1_Todo_1List_1_Todo_1 = (function (key)
   {
     var attempt = LanguagePrimitives__UnboxGeneric$String_String(((window.localStorage).getItem(key)));
     if ((attempt == null)) 
@@ -1682,16 +1606,16 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
       })(((window.JSON).parse(attempt)))};
     };
   });
-  Storage__save$List_1_Todo_List_1_Todo_ = (function (key, data)
+  Storage_1_save$List_1_Todo_1List_1_Todo_1 = (function (key, data)
   {
     return ((window.localStorage).setItem(key, ((window.JSON).stringify(data))));
   });
-  Todo___ctor$ = (function (description, completed)
+  Todo_1__ctor$ = (function (description, completed)
   {
     this.description = description;
     this.completed = completed;
   });
-  Todo___ctor$.prototype.CompareTo = (function (that)
+  Todo_1__ctor$.prototype.CompareTo = (function (that)
   {
     var diff = 0.000000;
     var _diff = 0.000000;
@@ -1828,12 +1752,12 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
       };
     };
   });
-  TupleRactive__List_1_Todo_ = (function (Item0, Item1)
+  TupleRactive__List_1_Todo_1 = (function (Item0, Item1)
   {
     this.Items = [Item0, Item1];
     this.Items = [Item0, Item1];
   });
-  TupleRactive__List_1_Todo_.prototype.CompareTo = (function (that)
+  TupleRactive__List_1_Todo_1.prototype.CompareTo = (function (that)
   {
     var diff = 0.000000;
     var _diff = 0.000000;
@@ -1858,12 +1782,12 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
       };
     };
   });
-  TupleRactive__RactiveData_ = (function (Item0, Item1)
+  TupleRactive__RactiveData_1 = (function (Item0, Item1)
   {
     this.Items = [Item0, Item1];
     this.Items = [Item0, Item1];
   });
-  TupleRactive__RactiveData_.prototype.CompareTo = (function (that)
+  TupleRactive__RactiveData_1.prototype.CompareTo = (function (that)
   {
     var diff = 0.000000;
     var _diff = 0.000000;
@@ -1895,5 +1819,5 @@ var UnfoldEnumerator_2_Int32__Int32___ctor$Int32_Int32, TupleRactive__RactiveDat
     this.acc = {Tag: 1.000000, Value: this.seed};
     this.current = null;
   });
-  Program__STORAGE_KEY = Program__get_STORAGE_KEY$();
-  Program__main$()
+  Program_1_STORAGE_KEY = Program_1_get_STORAGE_KEY$();
+  Program_1_main$()

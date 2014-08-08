@@ -155,7 +155,7 @@ module Observable =
                 w.Subscribe(newObserver)
 
     let add f (w: IObservable<'T>) =
-        w.Subscribe(ActionObserver(f, (fun e->()), (fun ()->()))) |> ignore
+        w.Subscribe(ActionObserver(f)) |> ignore
     
     let choose f (w: IObservable<'T>) =
         NewObservable1(f, w) :> IObservable<_>
@@ -183,7 +183,7 @@ module Observable =
         choose (fun v -> match f v with Choice2Of2 x -> Some x | _ -> None) w
 
     let subscribe (f: 'T -> unit) (w: IObservable<'T>) =
-        w.Subscribe(ActionObserver(f, (fun e->()), (fun ()->())))
+        w.Subscribe(ActionObserver(f))
         
 
 [<ReflectedDefinition>]

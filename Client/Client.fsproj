@@ -5,10 +5,10 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>9cfbd3ca-108d-4b8d-84a4-dd9c468ad25b</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>Funscript</RootNamespace>
-    <AssemblyName>Funscript</AssemblyName>
+    <ProjectGuid>8e218a82-6aa6-4dac-80ae-0e5a78a9e210</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Client</RootNamespace>
+    <AssemblyName>Client</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFSharpCoreVersion>4.3.1.0</TargetFSharpCoreVersion>
     <Name>Client</Name>
@@ -21,8 +21,7 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
-    <DocumentationFile>bin\Debug\Funscript.XML</DocumentationFile>
-    <Prefer32Bit>true</Prefer32Bit>
+    <DocumentationFile>bin\Debug\Client.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -31,7 +30,7 @@
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
-    <DocumentationFile>bin\Release\Funscript.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\Client.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
@@ -57,16 +56,16 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FunScript">
-      <HintPath>lib\FunScript.dll</HintPath>
+      <HintPath>C:\Users\Alfonso\Documents\GitHub\FunScript.Ractive.TodoMVC\Client\lib\FunScript.dll</HintPath>
     </Reference>
     <Reference Include="FunScript.Interop">
-      <HintPath>lib\FunScript.Interop.dll</HintPath>
+      <HintPath>C:\Users\Alfonso\Documents\GitHub\FunScript.Ractive.TodoMVC\Client\lib\FunScript.Interop.dll</HintPath>
     </Reference>
     <Reference Include="FunScript.TypeScript.Binding.lib">
-      <HintPath>lib\FunScript.TypeScript.Binding.lib.dll</HintPath>
+      <HintPath>C:\Users\Alfonso\Documents\GitHub\FunScript.Ractive.TodoMVC\Client\lib\FunScript.TypeScript.Binding.lib.dll</HintPath>
     </Reference>
     <Reference Include="FunScript.TypeScript.Binding.ractive">
-      <HintPath>lib\FunScript.TypeScript.Binding.ractive.dll</HintPath>
+      <HintPath>C:\Users\Alfonso\Documents\GitHub\FunScript.Ractive.TodoMVC\Client\lib\FunScript.TypeScript.Binding.ractive.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="FSharp.Core, Version=$(TargetFSharpCoreVersion), Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">

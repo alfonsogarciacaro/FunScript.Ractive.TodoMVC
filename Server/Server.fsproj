@@ -7,8 +7,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.0</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>88f8eb32-bd2e-47e7-b030-236fcb25f530</ProjectGuid>
-    <ProjectTypeGuids>{E53F8FEA-EAE0-44A6-8774-FFD645390401};{349C5851-65DF-11DA-9384-00065B846F21};{F2A71F9B-5D33-465A-A702-920D77279786}</ProjectTypeGuids>
+    <ProjectGuid>8234b8fe-958d-4eec-95b0-06bbc1c1b747</ProjectGuid>
+    <ProjectTypeGuids>{349C5851-65DF-11DA-9384-00065B846F21};{F2A71F9B-5D33-465A-A702-920D77279786}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <RootNamespace>Server</RootNamespace>
@@ -120,6 +120,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Content Include="packages.config" />
+    <Content Include="readme.txt" />
     <Content Include="index.html" />
   </ItemGroup>
   <ItemGroup>

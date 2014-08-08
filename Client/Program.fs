@@ -57,7 +57,7 @@ let todosProcess ractive todos =
             todos.RemoveAt(index) //todos.spliceOverload2(index, 1.) |> ignore
 
         | Choice3Of4 ev ->
-            for i in [|0..(todos.Count-1)|].reverse() do    // Using reverse iterations (10 .. -1 .. 1) doesn't work in Javascript
+            for i in (todos.Count-1) .. -1 .. 0 do
                 if todos.[i].completed then todos.RemoveAt(i)
 
         | Choice4Of4 ev ->
@@ -122,3 +122,4 @@ let main() =
     todosProcess ractive data.items
     toggleProcess ractive data.items
     filterProcess ractive
+    Globals.alert("Hello World!")
