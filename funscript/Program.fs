@@ -62,7 +62,7 @@ let todosProcess ractive todos =
 
     // Here we use a couple of async workflows to simulate a simple state machine:
     // when we detect an edit event, we stop listening the others until
-    // the editing is either completed or cancelleds
+    // the editing is either completed or cancelled
     let editingLoop(ractive, todos: List<Todo>) = async {
         let! choice = Async.AwaitRactiveEvent2(ractive, "submit", "cancel");
         match choice with
@@ -90,7 +90,7 @@ let todosProcess ractive todos =
             input.value <- ""
 
         | Choice2Of4 (ev, args) ->
-            // "i" is the name given to the list index
+            // "i" is the name given to the list index in the HTML
             let index: int = unbox ev.index.["i"]
             todos.RemoveAt(index)
 
@@ -132,8 +132,8 @@ let toggleProcess (ractive: Ractive) (todos: List<Todo>) =
             todos.[i] <- {todos.[i] with completed = isDone}
         Storage.save(todos))
 
-    // We could also merge the events as shown in the commented code below.
-    // All the other functions in the Observable module (filter, map, scan...) work too.
+    // We could also merge the events as shown in the commented code below
+    // All the other functions in the Observable module (filter, map, scan...) work too
 
 //    Observable.merge (ractive.onStream("toggle")) (ractive.onStream("toggleAll"))
 //    |> Observable.add (fun (ev, args) ->
