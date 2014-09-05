@@ -63,8 +63,8 @@ let todosProcess ractive todos =
     // Here we use a couple of async workflows to simulate a simple state machine:
     // when we detect an edit event, we stop listening the others until
     // the editing is either completed or cancelled
-    let editingLoop(ractive, todos: List<Todo>) = async {
-        let! choice = Async.AwaitRactiveEvent2(ractive, "submit", "cancel");
+    let editingLoop(r: Ractive, todos: List<Todo>) = async {
+        let! choice = Async.AwaitObservable2(r.onStream("submit"), r.onStream("cancel"));
         match choice with
         | Choice1Of2 (ev, args) ->
             // We use 'unbox' to trick the F# compiler, but it won't have any effect in Javascript
@@ -81,8 +81,8 @@ let todosProcess ractive todos =
         // As we don't call editingLoop recursively, we'll leave the loop immediately after handling the event
     }
 
-    let rec waitingLoop(ractive, todos: List<Todo>): Async<unit> = async {
-        let! choice = Async.AwaitRactiveEvent4(ractive, "newTodo", "remove", "clearCompleted", "edit")
+    let rec waitingLoop(r: Ractive, todos: List<Todo>): Async<unit> = async {
+        let! choice = Async.AwaitObservable4(r.onStream("newTodo"), r.onStream("remove"), r.onStream("clearCompleted"), r.onStream("edit"))
         match choice with
         | Choice1Of4 (ev, args) ->
             let input: HTMLInputElement = unbox ev.node
@@ -104,12 +104,12 @@ let todosProcess ractive todos =
             li.classList.add("editing")
             input.value <- (unbox ev.context).description
             input.focus()
-            do! editingLoop(ractive, todos) // Enter the editing loop
+            do! editingLoop(r, todos) // Enter the editing loop
             li.classList.remove("editing")
 
         Storage.save(todos)
         //r.update("todos") |> ignore       // Not necessary, Ractive intercepts array mutator methods (unless modifyArrays is false)
-        return! waitingLoop(ractive, todos) // Repeat the loop indefinitely
+        return! waitingLoop(r, todos) // Repeat the loop indefinitely
     }
 
     Async.StartImmediate <| waitingLoop(ractive, todos)
